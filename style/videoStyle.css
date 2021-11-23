@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* start video header */
+.header {
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(205,220,57,1) 30%);
+    height: 40vh;
+}
+.header p {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.header .cust-input:focus {
+    border: none;
+    outline: none;
+}
+/* start video list */
+/* .video-list {
+    background-color: #dee2e6;
+} */
+.video-list video{
+    box-shadow: -5px -4px 10px 2px rgb(0 0 0 / 40%);
+}
+.video-list .card{
+    background-color: #9d9e9f24;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.video-list .card img{
+    width: 80px;
+    height: 80px;
+}
+.video-list .aside-list {
+    background-color: #9d9e9f24;
+    padding: 10px;
+    border-radius: 8px;
+}
+.video-list .aside-list img{
+    border-radius: 8px;
+}
